@@ -16,4 +16,7 @@ Installzation
     # then run this script in spyder3 that embedded in python3
         # note, the first run will take time to auto-download supporting files.
         
-        
+    ![image](https://user-images.githubusercontent.com/22294036/129352315-011cbee9-7fd8-4881-b62a-7a8f34a7c2c1.png)
+    ![image](https://user-images.githubusercontent.com/22294036/129352354-9714cb65-ceb0-41a0-a7e6-c209a16559bf.png)
+    ![image](https://user-images.githubusercontent.com/22294036/129352406-4981fe1a-4b70-4bc2-b2b4-b3cbd6ee76de.png)
+ 
