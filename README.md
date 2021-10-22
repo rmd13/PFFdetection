@@ -12,10 +12,10 @@ Installzation
         # test by running <mvn -v>. Note JAVA_HOME is required
         # then add D:\GreenSoft\apache-maven-3.8.1\bin to windows environment 'Path'.
     # 4. run 'pip install pyimagej'
-    # 5.edit the line to change to your local Fiji application path.
+    # 5. edit the line to change to your local Fiji application path.
         FijiAppPath = "D:\GreenSoft\Fiji.app52p" # Fiji installation path
-    # 6.Run imagej,  go to Set Measurement, set as image blow shows.
-    # then run this script in spyder3(in python3).
+    # 6. Run imagej, click Analyze-Set Measurement..., tick as image blow shows.
+    # 7. then run this script in spyder3(in python3).
         # note, the first run will take time to auto-download supporting files.
         
 ![image](https://user-images.githubusercontent.com/22294036/138417196-84b377da-3218-4114-a7b8-2cbd50c939e0.png)
