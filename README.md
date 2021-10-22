@@ -19,7 +19,7 @@ Installzation
     #2. Run imagej, click Analyze-Set Measurement..., tick as image blow shows.
     #3. launch spyder3 GUI by input 'spyder3.exe' into command window.
         it usually localized in C:\Users\~\AppData\Local\Programs\Python\Python36\Scripts\spyder3.exe
-    #4. Open this script to run in spyder3.
+    #4. Open this newest version script(largest number) myPFFdetection*.py to run in spyder3.
         edit the line in this script to change to your local Fiji application path.
             FijiAppPath = "D:\GreenSoft\Fiji.app52p" # Fiji installation path
     # then run the whole script in Spyder3.
