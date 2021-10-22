@@ -1,7 +1,7 @@
 # PFFdetection.py
 detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
 
-
+```
 Installzation
     #1. install Fiji from https://downloads.imagej.net/fiji/latest/fiji-win64.zip
         install Python3.6.6 from https://www.python.org/ftp/python/3.6.6/python-3.6.6.exe
@@ -22,7 +22,7 @@ Installzation
             FijiAppPath = "D:\GreenSoft\Fiji.app52p" # Fiji installation path
     # then run the whole script in Spyder3.
         # note, the first run will take time to auto-download supporting files.      
-    
+  ```  
     
 ![image](https://user-images.githubusercontent.com/22294036/138417196-84b377da-3218-4114-a7b8-2cbd50c939e0.png)
 
