@@ -627,7 +627,7 @@ def process_one_image(image_url):
         ips_PFFtrim = WindowManager.getImage(pffMaskTitle);
         IJ.run(ips_PFFtrim, "Grays", "");
         ######--get Perimeter & Area of all PFF in this tile
-        if True:
+        if False:
             # -method is not correct
             ips_PFFerode = ips_PFFtrim.duplicate();
             IJ.run(ips_PFFerode, "Erode", "");
