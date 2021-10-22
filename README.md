@@ -9,7 +9,9 @@ Installzation
         place ij_ridge_detect-1.4.0-J6Public.jar inside Fiji's installation .\Plugins folder.
         instalL OpenJDK8  https://cdn.azul.com/zulu/bin/zulu8.54.0.21-ca-fx-jdk8.0.292-win_x64.zip
             unzip to a folder like D:\GreenSoft\zulu8.54.0.21-ca-fx-jdk8.0.292-win_x64 and add to windows environment 'Path'.
-        install maven https://downloads.apache.org/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.zip
+        install maven 3.8.1
+            https://maven.apache.org/download.cgi
+            https://downloads.apache.org/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.zip
             unzip to a folder like D:\GreenSoft\apache-maven-3.8.1\bin 
             test by running <mvn -v>. Note JAVA_HOME is required
             then add D:\GreenSoft\apache-maven-3.8.1\bin to windows environment 'Path'.
