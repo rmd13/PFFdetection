@@ -14,9 +14,12 @@ Installzation
     # 4. run 'pip install pyimagej'
     # 5.edit the line to change to your local Fiji application path.
         FijiAppPath = "D:\GreenSoft\Fiji.app52p" # Fiji installation path
+    # 6.Run imagej,  go to Set Measurement, set as image blow shows.
     # then run this script in spyder3(in python3).
         # note, the first run will take time to auto-download supporting files.
         
+![image](https://user-images.githubusercontent.com/22294036/138417196-84b377da-3218-4114-a7b8-2cbd50c939e0.png)
+
 ![image](https://user-images.githubusercontent.com/22294036/137282608-c3ad8fee-b4a0-4f2d-a3da-3057f5494965.png)
 
 ![image](https://user-images.githubusercontent.com/22294036/137282738-cf812845-3fb5-4dd6-a262-b5c69127920a.png)
