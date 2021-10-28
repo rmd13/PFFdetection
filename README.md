@@ -13,7 +13,7 @@ detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
                 
             --way 2: download the python zip file Python36.rar containig both python and Spyder3.
                 unzip as C:\Users\~\AppData\Local\Programs\Python\Python36\...
-                then add C:\Users\~\AppData\Local\Programs\Python\Python36\Scripts to encironment Path
+                then add C:\Users\~\AppData\Local\Programs\Python\Python36\Scripts to environment Path
                 then open C:\Users\~\AppData\Local\Programs\Python\Python36\Scripts\spyder3.exe in notepad++(download if not have)
                     find string 'rmd', you will locate to a path 
                     update the path by changing 'rmd' to your path equivalents of username, then save.
