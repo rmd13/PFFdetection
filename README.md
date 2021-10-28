@@ -2,12 +2,6 @@
 detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
 
 ```
-
-@author: Ren Mengda
-First Created on Fri Jun 11 13:11:15 2021
-    Edit on Aug,13, 2021
-    Edit on Sep,1, 2021
-    Edit on Oct,5, 2021
     #1.Installization
         install Fiji from https://downloads.imagej.net/fiji/latest/fiji-win64.zip
         
