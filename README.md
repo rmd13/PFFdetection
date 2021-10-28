@@ -27,14 +27,15 @@ detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
             https://maven.apache.org/download.cgi
             https://downloads.apache.org/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.zip
             unzip to a folder like D:\GreenSoft\apache-maven-3.8.1\bin 
-            test by running <mvn -v>. Note JAVA_HOME is required. if have no java, install a jre or jdk.
-                such as install jdk as C:\Program Files\Java\jdk1.8.0_211
+            test by running <mvn -v>. Note JAVA_HOME is required.
+            if have no java:
+                install a jre or jdk such as install jdk as C:\Program Files\Java\jdk1.8.0_211
                 or just use the java inside Fiji such as: D:\GreenSoft\Fiji.app52p\java\win64\jdk1.8.0_172
             then add D:\GreenSoft\apache-maven-3.8.1\bin to windows environment 'Path'.
             
         install pyimagej by commands 'pip install pyimagej' into command window.
         
-    #2. Run imagej, click Analyze-Set Measurement..., tick as image blow shows.
+    #2. Run imagej, click Analyze-Set Measurement..., tick as image blow shows, then quit.
     
     #3. launch spyder3 GUI by input 'spyder3.exe' into command window.
         it usually localized in C:\Users\~\AppData\Local\Programs\Python\Python36\Scripts\spyder3.exe
@@ -46,7 +47,6 @@ detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
     # then run the whole script in Spyder3.
         # note, the first run may take time to auto-download supporting files..
         # after Fiji panel pop up, run this script again to process images.
-    IJ.run('Close All')  
   ```  
     
 ![image](https://user-images.githubusercontent.com/22294036/138417196-84b377da-3218-4114-a7b8-2cbd50c939e0.png)
