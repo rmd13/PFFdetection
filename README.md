@@ -4,17 +4,18 @@ detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
 ```
     #1.Installization
         install Fiji:
-            --way 1: (not suggested as API may change in future, way 2 is better for compatibility)
+            --way A1: (not suggested as API may change in future, way 2 is better for compatibility)
                 download and unzip from https://downloads.imagej.net/fiji/latest/fiji-win64.zip
                 place ij_ridge_detect-1.4.0-J6Public.jar inside Fiji's installation .\Plugins folder.
-            --way 2:(suggested, tested stable)
+            --way A2:(suggested, tested stable)
                 download from this repo which already has ij_ridge_detect-1.4.0-J6Public.jar included.
         
-        install python and spyder3
-            --way 1:(not suggested) prone to error/fail because of updates in pywin32 in 2021.
+        install python and spyder3 (and pyimagej by way 2)
+            --way B1:(not suggested) prone to error/fail because of updates in pywin32 in 2021.
                 install Python3.6.6 from https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe
                 install spyder3.3.1 by commands 'pip install spyder==3.3.1' into command window.
-            --way 2:(suggested) download the python zip file Python36.rar containig both python and Spyder3.
+                
+            --way B2:(suggested) download the python zip file Python36.rar containig both python, Spyder3 and pyimagej.
                 unzip as 'C:\\Users\~\AppData\Local\Programs\Python\Python36\...'
                 then add 'C:\\Users\~\AppData\Local\Programs\Python\Python36\Scripts' to environment Path
                 then open 'C:\\Users\~\AppData\Local\Programs\Python\Python36\Scripts\spyder3.exe' in notepad++(download if not have)
@@ -35,7 +36,7 @@ detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
                 either install a java jre or jdk such as install jdk as C:\Program Files\Java\jdk1.8.0_211
                 or just use the java inside Fiji such as: D:\GreenSoft\Fiji.app52p\java\win64\jdk1.8.0_172
 
-        install pyimagej
+        install pyimagej if pyimagej has not been installed (in --way B1).
             by commands 'pip install pyimagej' into windows command window.
         
     #2. Run imagej, click Analyze-Set Measurement..., tick as image blow shows, then quit.
