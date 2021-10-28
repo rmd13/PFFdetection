@@ -2,37 +2,66 @@
 detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
 
 ```
-Install
-    #1. install Fiji from https://downloads.imagej.net/fiji/latest/fiji-win64.zip
-        install Python3.6.6 from https://www.python.org/ftp/python/3.6.6/python-3.6.6.exe
-        install spyder3.3.1 by commands  'pip install spyder==3.3.1' into command window.
+
+@author: Ren Mengda
+First Created on Fri Jun 11 13:11:15 2021
+    Edit on Aug,13, 2021
+    Edit on Sep,1, 2021
+    Edit on Oct,5, 2021
+    #1.Installization
+        install Fiji from https://downloads.imagej.net/fiji/latest/fiji-win64.zip
+        
+        install python and spyder3
+        
+            --way 1:prone to error/fail because of updates in pywin32 in 2021.
+                install Python3.6.6 from https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe
+                install spyder3.3.1 by commands 'pip install spyder==3.3.1' into command window.
+                
+            --way 2: download the python zip file Python36.rar containig both python and Spyder3.
+                unzip as C:\Users\~\AppData\Local\Programs\Python\Python36\...
+                then add C:\Users\~\AppData\Local\Programs\Python\Python36\Scripts to encironment Path
+                then open C:\Users\~\AppData\Local\Programs\Python\Python36\Scripts\spyder3.exe in notepad++(download if not have)
+                    find string 'rmd', you will locate to a path 
+                    update the path by changing 'rmd' to your path equivalents of username, then save.
+        
         place ij_ridge_detect-1.4.0-J6Public.jar inside Fiji's installation .\Plugins folder.
+        
         instalL OpenJDK8  https://cdn.azul.com/zulu/bin/zulu8.54.0.21-ca-fx-jdk8.0.292-win_x64.zip
             unzip to a folder like D:\GreenSoft\zulu8.54.0.21-ca-fx-jdk8.0.292-win_x64 and add to windows environment 'Path'.
+        
         install maven 3.8.1
             https://maven.apache.org/download.cgi
             https://downloads.apache.org/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.zip
             unzip to a folder like D:\GreenSoft\apache-maven-3.8.1\bin 
-            test by running <mvn -v>. Note JAVA_HOME is required
+            test by running <mvn -v>. Note JAVA_HOME is required. if have no java, install a jre or jdk.
+                such as install jdk as C:\Program Files\Java\jdk1.8.0_211
+                or just use the java inside Fiji such as: D:\GreenSoft\Fiji.app52p\java\win64\jdk1.8.0_172
             then add D:\GreenSoft\apache-maven-3.8.1\bin to windows environment 'Path'.
+            
         install pyimagej by commands 'pip install pyimagej' into command window.
+        
     #2. Run imagej, click Analyze-Set Measurement..., tick as image blow shows.
+    
     #3. launch spyder3 GUI by input 'spyder3.exe' into command window.
         it usually localized in C:\Users\~\AppData\Local\Programs\Python\Python36\Scripts\spyder3.exe
+        
     #4. Open this newest version script(largest number) myPFFdetection*.py to run in spyder3.
         edit the line in this script to change to your local Fiji application path.
-            FijiAppPath = "D:\GreenSoft\Fiji.app52p" # Fiji installation path
+            FijiAppPath = r"D:\\GreenSoft\\Fiji.app52p" # Fiji installation path
+            
     # then run the whole script in Spyder3.
-        # note, the first run will take time to auto-download supporting files.      
+        # note, the first run may take time to auto-download supporting files..
+        # after Fiji panel pop up, run this script again to process images.
+    IJ.run('Close All')  
   ```  
     
 ![image](https://user-images.githubusercontent.com/22294036/138417196-84b377da-3218-4114-a7b8-2cbd50c939e0.png)
 
-![image](https://user-images.githubusercontent.com/22294036/137282608-c3ad8fee-b4a0-4f2d-a3da-3057f5494965.png)
+[image](https://user-images.githubusercontent.com/22294036/137282608-c3ad8fee-b4a0-4f2d-a3da-3057f5494965.png)
 
-![image](https://user-images.githubusercontent.com/22294036/137282738-cf812845-3fb5-4dd6-a262-b5c69127920a.png)
+[image](https://user-images.githubusercontent.com/22294036/137282738-cf812845-3fb5-4dd6-a262-b5c69127920a.png)
 
-![image](https://user-images.githubusercontent.com/22294036/129352315-011cbee9-7fd8-4881-b62a-7a8f34a7c2c1.png)
+[image](https://user-images.githubusercontent.com/22294036/129352315-011cbee9-7fd8-4881-b62a-7a8f34a7c2c1.png)
 
-![image](https://user-images.githubusercontent.com/22294036/129352406-4981fe1a-4b70-4bc2-b2b4-b3cbd6ee76de.png)
+[image](https://user-images.githubusercontent.com/22294036/129352406-4981fe1a-4b70-4bc2-b2b4-b3cbd6ee76de.png)
 
