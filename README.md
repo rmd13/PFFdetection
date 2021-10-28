@@ -51,6 +51,8 @@ detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
     
 ![image](https://user-images.githubusercontent.com/22294036/138417196-84b377da-3218-4114-a7b8-2cbd50c939e0.png)
 
+![Measure](https://user-images.githubusercontent.com/22294036/139278999-cbd49769-7aa4-49b9-b132-9c751c283dee.png)
+
 [image](https://user-images.githubusercontent.com/22294036/137282608-c3ad8fee-b4a0-4f2d-a3da-3057f5494965.png)
 
 [image](https://user-images.githubusercontent.com/22294036/137282738-cf812845-3fb5-4dd6-a262-b5c69127920a.png)
