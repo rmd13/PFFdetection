@@ -9,6 +9,8 @@ detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
                 place ij_ridge_detect-1.4.0-J6Public.jar inside Fiji's installation .\Plugins folder.
             --way A2:(suggested, tested stable)
                 download from this repo which already has ij_ridge_detect-1.4.0-J6Public.jar included.
+            After install Fiji, place "IJ_Prefs.txt" to your user folder as :
+                C:\Users\(should be your pc username)\.imagej\IJ_Prefs.txt
         
         install python and spyder3 (and pyimagej by way 2)
             --way B1:(not suggested) prone to error/fail because of updates in pywin32 in 2021.
