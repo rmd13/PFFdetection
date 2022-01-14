@@ -34,7 +34,7 @@ detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
             unzip to a folder like D:\GreenSoft\apache-maven-3.8.1\bin
             add  folder like 'D:\\GreenSoft\apache-maven-3.8.1\bin' to windows environment 'Path'.
             test by running <mvn -v>. Note JAVA_HOME is required.
-            if no java installed:
+            if no java installed, install it and add the environment path JAVA_HOME
                 either install a java jre or jdk such as install jdk as C:\Program Files\Java\jdk1.8.0_211
                 or just use the java inside Fiji such as: D:\GreenSoft\Fiji.app52p\java\win64\jdk1.8.0_172
 
@@ -45,10 +45,11 @@ detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
     
     #3. launch spyder3q GUI by input 'spyder3.exe' into command window and press enter.
         it usually localized in 'C:\\Users\~\AppData\Local\Programs\Python\Python36\Scripts\spyder3.exe'
+        you can drag a shortcut to your desk.
         
     #4. Open the newest version of script myPFFdetection(largest number).py in spyder3.
             edit the line in this script to change to your local Fiji application path.
-                FijiAppPath = r"D:\\GreenSoft\\Fiji.app52p" # Fiji installation path
+                FijiAppPath = r"D:\\GreenSoft\\Fiji.app52p" # your real Fiji installation path
             
     # then run the whole script in Spyder3.
         # note, the first run may take time to auto-download supporting files..
