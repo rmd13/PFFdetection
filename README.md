@@ -34,9 +34,10 @@ detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
             unzip to a folder like D:\GreenSoft\apache-maven-3.8.1\bin
             add  folder like 'D:\\GreenSoft\apache-maven-3.8.1\bin' to windows environment 'Path'.
             test by running <mvn -v>. Note JAVA_HOME is required.
-            if no java installed, install it and add the environment path JAVA_HOME
-                either install a java jre or jdk such as install jdk as C:\Program Files\Java\jdk1.8.0_211
-                or just use the java inside Fiji such as: D:\GreenSoft\Fiji.app52p\java\win64\jdk1.8.0_172
+            if no java installed, install it and add to the environment path JAVA_HOME
+                either (1)install a java jre or jdk such as install jdk as C:\Program Files\Java\jdk1.8.0_211
+                       You can download and unzip jdk1.8.0_211 and move it, so that you will have C:\Program Files\Java\jdk1.8.0_211\bin\java.exe
+                or (2, not recommended) just use the java inside Fiji such as: D:\GreenSoft\Fiji.app52p\java\win64\jdk1.8.0_172
 
         install pyimagej if pyimagej has not been installed (in --way B1).
             by commands 'pip install pyimagej' into windows command window.
