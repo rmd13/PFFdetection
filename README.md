@@ -58,7 +58,9 @@ detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
             
     # then run the whole script in Spyder3 by clicking the green triangle button.
         # note, the first run may take time to auto-download supporting files(in fact no).
-        # after Fiji panel pop up, run this script again to start processing images.
+        # after Fiji panel pop up, open a random image and click Measure to see if the colums are the same as image blow shows.
+            If not, click Analyze-Set Measurement..., tick as image blow shows.
+        # run this script again to start processing images.
         # a panel for setting will show up for you to edit, if need.
         # For each image to analyze, there will be a pause at beginning, with a thresholding image for you to check and minor-adjust threshold,
             then input anything into spyder console(on right-bottom corner) and press enter to continue.
