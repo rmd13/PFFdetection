@@ -1,5 +1,5 @@
 # PFFdetection.py
-detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
+detect contour and measure lengths of sonicated PFF(α-syn preformed fibril) on TEM images
 
 ```
     #1.Installization and run
