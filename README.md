@@ -56,17 +56,17 @@ detect contour of  sonicated PFF( α-syn preformed fibril) on TEM images
             edit the line in this script to change to your local Fiji application path.
                 FijiAppPath = r"D:\\GreenSoft\\Fiji.app52p" # always change to your real Fiji installation path
             
-    # then run the whole script in Spyder3 by clicking the green triangle button.
-        # note, the first run may take time to auto-download supporting files(in fact no).
-        # after Fiji panel pop up, open a random image and click Measure to see if the colums are the same as image blow shows.
-            If not, click Analyze-Set Measurement..., tick as image blow shows.
-        # run this script again to start processing images.
+    #5. then run the whole script in Spyder3:
+        # click the green triangle button and wait for Fiji start.
+        # after Fiji panel pop up, drag a random image you have to Fiji panel to open it, and click Analyze-Measure to see if the colums are the same as image blow shows.
+            If not, click Analyze-Set Measurement..., tick as image blow shows and re-analyze to check.
+        # Now click the green triangle button again to start processing images.
         # a panel for setting will show up for you to edit, if need.
         # For each image to analyze, there will be a pause at beginning, with a thresholding image for you to check and minor-adjust threshold,
             then input anything into spyder console(on right-bottom corner) and press enter to continue.
             
-    # For each PFF clump roi, there will be a "_*_RoiCrop_Ridge.csv", which contain the list of length of all identified PFF filaments.
-        It is advised to measure a minimum PFF length on image, and only consider the PFF lengths that are not less than this number for quantification.
+    #6. For each PFF clump roi, there will be a "_*_RoiCrop_Ridge.csv" generated, which contain the list of lengths(um) of all identified PFF filaments.
+        It is advised to measure a minimum PFF length on image, and only consider the PFF lengths that are not less than this value for quantification.
         
         
   ```  
